@@ -13,7 +13,7 @@ namespace MovieTheater
         {
             while (true)
             {
-                Console.WriteLine("\n--- ANA MENYU ---");
+                Console.WriteLine("MENYU");
                 Console.WriteLine("1. Yeni teatr yarat");
                 Console.WriteLine("2. Yeni janr yarat");
                 Console.WriteLine("3. Yeni film yarat");
@@ -56,7 +56,7 @@ namespace MovieTheater
             Array.Resize(ref theaters, theaters.Length + 1);
             theaters[theaters.Length - 1] = theater;
 
-            Console.WriteLine($"'{name}' adlı teatr yaradıldı.");
+            
         }
 
        
@@ -69,7 +69,7 @@ namespace MovieTheater
             Array.Resize(ref genres, genres.Length + 1);
             genres[genres.Length - 1] = genre;
 
-            Console.WriteLine($"'{name}' janrı yaradıldı.");
+    
         }
 
         
@@ -127,7 +127,7 @@ namespace MovieTheater
         {
             while (true)
             {
-                Console.WriteLine($"\n--- {theater.Name} Teatr Menyusu ---");
+                Console.WriteLine($" {theater.Name} Teatr Menyusu");
                 Console.WriteLine("1. Film əlavə et");
                 Console.WriteLine("2. Filmləri göstər");
                 Console.WriteLine("3. Film sil");
