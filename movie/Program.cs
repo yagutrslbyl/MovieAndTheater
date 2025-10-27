@@ -1,7 +1,7 @@
 ﻿using movie;
 using System;
 
-namespace MovieTheater
+namespace Movi
 {
     internal class Program
     {
